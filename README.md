@@ -15,6 +15,15 @@
 - Querying: User queries are embedded and compared against the FAISS index to retrieve the most relevant content.
 - Interactive Interface: Results are displayed in a chatbot-like interface, and users can reset the conversation with the "Clear Chat" button.
 
+**Retrieval-Augmented Generation (RAG)**
+In this project, RAG principles are applied to allow efficient PDF querying by leveraging:
+- Document Retrieval: Relevant content is retrieved using FAISS (vector similarity search) based on semantic embeddings.
+- Content Display: Instead of generating new content, the system retrieves the closest matches and presents them as answers, simulating RAG-like behavior without generative modeling.
+
+**LangChain simplifies document preprocessing for RAG by:**
+- Extracting content from PDFs using PyPDFLoader.
+- Splitting documents into smaller, structured chunks for easier embedding and retrieval.
+
 **Customization**
 - Embedding Model: You can replace the default embedding model with another model supported by Hugging Face by modifying preprocess.py.
 - FAISS Parameters: Tune FAISS settings for better indexing and search performance in query_engine.py.
