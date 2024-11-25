@@ -1,6 +1,6 @@
 **Content Engine - Query and Compare PDFs**
-This Streamlit application enables users to upload PDF documents and query their contents in a chatbot-like interface. 
-It uses FAISS for efficient similarity search and a pre-trained embedding model to generate vector embeddings for document content.
+- This Streamlit application enables users to upload PDF documents and query their contents in a chatbot-like interface. 
+- It uses FAISS for efficient similarity search and a pre-trained embedding model to generate vector embeddings for document content.
 
 **Features**
 - Upload multiple PDF files to create a searchable document index.
