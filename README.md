@@ -4,6 +4,7 @@ https://github.com/user-attachments/assets/3948a27e-4efb-498a-89e1-99aca771bc3b
 
 
 **Content Engine - Query and Compare PDFs**
+[ML, NLP, Information Retrival, Document Search]
 - This Streamlit application enables users to upload PDF documents and query their contents in a chatbot-like interface. 
 - It uses FAISS for efficient similarity search and a pre-trained embedding model to generate vector embeddings for document content.
 
